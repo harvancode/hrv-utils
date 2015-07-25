@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN" monitorInterval="5">
+	<Appenders>
+		<File name="file" fileName="app.log">
+			<PatternLayout>
+				<Pattern>[%d{dd-MM-yyyy HH:mm:ss:S}] [%p] [%c{*.}] [%t] : %m %ex%n
+				</Pattern>
+			</PatternLayout>
+		</File>
+		<Console name="STDOUT" target="SYSTEM_OUT">
+			<PatternLayout>
+				<Pattern>
+					[%d{dd-MM-yyyy HH:mm:ss:S}] [%p] [%c{*.}] : %m%n
+				</Pattern>
+			</PatternLayout>
+		</Console>
+	</Appenders>
+	<Loggers>
+		<Root level="trace">
+			<AppenderRef ref="file">
+				<level>ERROR</level>
+				<level>INFO</level>
+			</AppenderRef>
+			<AppenderRef ref="STDOUT">
+				<level>DEBUG</level>
+			</AppenderRef>
+		</Root>
+	</Loggers>
+</Configuration>

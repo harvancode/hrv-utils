@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="lib" path="D:/harvan/programming/java/eclipsejsegit/src-builder-1.0.0/src-builder-1.0.0/dist/src-builder-1.0.0.jar"/>
+	<classpathentry kind="lib" path="libs/janino.jar"/>
+	<classpathentry kind="lib" path="libs/log4j-1.2-api-2.3.jar"/>
+	<classpathentry kind="lib" path="libs/log4j-core-2.3.jar"/>
+	<classpathentry kind="lib" path="libs/commons-compiler.jar"/>
+	<classpathentry kind="lib" path="libs/log4j-api-2.3.jar"/>
+	<classpathentry kind="lib" path="libs/log4j-jcl-2.3.jar"/>
+	<classpathentry kind="lib" path="libs/log4j-jul-2.3.jar"/>
+	<classpathentry kind="lib" path="libs/log4j-slf4j-impl-2.3.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
